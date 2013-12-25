@@ -10,9 +10,10 @@ MQTT-MY-RASPI consists of the following Camel routes:
 
 Furthermore, a Things-Command can be directly published to the MQTT topic using any other MQTT client as well.
 
-The following foto ![foto](test-setup.jpg) shows my test-setup (Arduino Leonardo, Raspi, Nexus 7)
+The following foto shows my test-setup (Arduino Leonardo, Raspi, Nexus 7) ![foto](test-setup.jpg).
 
-For any questions or feedback contact my on twitter via @tomkriechb.
+
+For any questions or feedback contact my on Twitter via [@tomkriechb](https://twitter.com/tomkriechb).
 
 Thanks to Vinitius Senger ([@vsenger](https://twitter.com/vsenger)) for his great [Raspi Hands-On-Lab](http://www.devoxx.be/dv13-geert-bevin.html?presId=3747).
 
