@@ -26,7 +26,7 @@ Thanks to Vinitius Senger ([@vsenger](https://twitter.com/vsenger)) for his grea
 
 ## Things-Sketch
 
-I have adopted the Devoxx sample in that way, that the speaker component is mapped to I/O pin 13 that is directly connected to the build-in LED. 
+I have adopted the Devoxx sample slightly, that the speaker component is now mapped to I/O pin 13 which is directly connected to the build-in LED. 
 
 see [things_sample.ino](src/main/arduino/things_sample/things_sample.ino)
 
