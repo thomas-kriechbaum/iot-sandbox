@@ -38,7 +38,8 @@ extract `target/mqtt-my-raspi-VERSION.zip`  on your Rapsi
 
 ## Run:
 
-`java -cp "./lib/*" org.things.hackathon.mqttmyraspi.ContainerBootstrap -broker tcp://localhost:1883 -topic things/device/arduino -inbox /home/pi/workbench/mqttmyraspi/inbox -arduino /dev/ttyACM0` 
+`java -cp "./lib/*" org.things.hackathon.mqttmyraspi.ContainerBootstrap -broker tcp://localhost:1883`
+`   -topic things/device/arduino -inbox /home/pi/workbench/mqttmyraspi/inbox -arduino /dev/ttyACM0` 
 
 * -broker ... address:port of the MQTT broker
 * -topic ... the topic to which the Things-Route is subscribed
