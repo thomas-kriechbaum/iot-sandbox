@@ -1,7 +1,8 @@
 # mqtt-my-raspi
 
 This example has been implemented during Devoxx 2013 Raspi Hackerthon and has therefore rather "Hello World" nature than 
-being a best practice about how to use MQTT on a Raspi
+being a best practice about how to use MQTT on a Raspi. 
+
 
 MQTT-MY-RASPI consists of the following Camel routes:
 
@@ -10,12 +11,16 @@ MQTT-MY-RASPI consists of the following Camel routes:
 
 Furthermore, a Things-Command can be directly published to the MQTT topic using any other MQTT client as well.
 
-The following picture shows my test-setup (Nexus 7, Raspi, Arduino Leonardo) ![foto](test-setup.jpg).
 
+
+The following picture shows my test-setup (Nexus 7, Raspi, Arduino Leonardo) ![foto](test-setup.jpg).
 
 For any questions or feedback contact my on Twitter via [@tomkriechb](https://twitter.com/tomkriechb).
 
 Thanks to Vinitius Senger ([@vsenger](https://twitter.com/vsenger)) for his great [Raspi Hands-On-Lab](http://www.devoxx.be/dv13-geert-bevin.html?presId=3747) at Devoxx 13.
+
+**Note:**
+The combination of CDI and Camel as used within this example might be a little bit "over-engineered". But it demonstrates, that even hardware-related APIs as the Things-API can be reused in a (micro) ESB/Java EE environment very easily. 
 
 ## Prerequisites:
 * MQTT-Broker installed on Raspi  (e.g. `sudo apt-get install mosquitto`)
