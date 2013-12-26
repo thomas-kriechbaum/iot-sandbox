@@ -7,7 +7,7 @@ being a best practice about how to use MQTT on a Raspi.
 MQTT-MY-RASPI consists of the following Camel routes:
 
 * _Inbox-Route_: listens to a file directory and publishes the content of any file to a specific MQTT topic
-* _Things-Route_: subscribes to a specific MQTT topic and sends the content to a connected Arduino board using the Things-API.
+* _Things-Route_: subscribes to a specific MQTT topic and sends the content to a connected Arduino board using the [Things-API](https://github.com/vsenger/things-api).
 
 Furthermore, a Things-Command can be directly published to the MQTT topic using any other MQTT client as well.
 
