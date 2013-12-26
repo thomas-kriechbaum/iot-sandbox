@@ -24,7 +24,7 @@ The combination of CDI and Camel as used within this example might be a little b
 
 ## Prerequisites:
 * MQTT-Broker installed on Raspi  (e.g. `sudo apt-get install mosquitto`)
-* JDK 1.8 with RXTX installed on Raspi (as requirement for using Things-API)
+* JDK 1.7 (or greater) with RXTX installed on Raspi (as requirement for using Things-API)
 * Things-API installed on the Arduino board
 * MQTT-Client on any Android device (e.g. MyMQTT)
 * Things-API Java-Implementation installed within your local Maven repository (currently only available as SNAPSHOT-version - clone/fork from [Things-API](https://github.com/vsenger/things-api) Github-Repository).
