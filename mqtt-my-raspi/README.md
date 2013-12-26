@@ -17,7 +17,7 @@ The following picture shows my test-setup (Nexus 7, Raspi, Arduino Leonardo) ![f
 
 For any questions or feedback contact my on Twitter via [@tomkriechb](https://twitter.com/tomkriechb).
 
-Thanks to Yara and Vinitius Senger ([@yarasenger](https://twitter.com/yarasenger), [@vsenger](https://twitter.com/vsenger)) for their great [Raspi Hands-On-Lab](http://www.devoxx.be/dv13-geert-bevin.html?presId=3747) at Devoxx 13.
+Thanks to Yara and Vinicius Senger ([@yarasenger](https://twitter.com/yarasenger), [@vsenger](https://twitter.com/vsenger)) for their great [Raspi Hands-On-Lab](http://www.devoxx.be/dv13-geert-bevin.html?presId=3747) at Devoxx 13.
 
 **Note:**
 The combination of CDI and Camel as used within this example might be a little bit "over-engineered". But it demonstrates, that even hardware-related APIs as the Things-API can be reused in a (micro) ESB/Java EE environment very easily. 
@@ -60,7 +60,7 @@ extract `target/mqtt-my-raspi-VERSION.zip`  on your Rapsi
 * -t ... the topic, to which the message should be published
 * -m ... the message that should be published
 
-subscribe to a tocic using mosquito (for logging purposes)
+subscribe to a topic using mosquitto (e.g. for logging purposes)
 
 `mosquitto_sub -h 192.168.1.116 -t things/device/arduino`
 
