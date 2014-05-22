@@ -15,7 +15,7 @@ Furthermore, a Things-Command can be directly published to the MQTT topic using 
 
 The following picture shows my test-setup (Nexus 7, Raspi, Arduino Leonardo) ![foto](test-setup.jpg).
 
-For any questions or feedback contact me on Twitter via [@tomkriechb](https://twitter.com/tomkriechb).
+For any questions or feedback contact me on Twitter via [@tomkriech](https://twitter.com/tomkriech).
 
 Thanks to Yara and Vinicius Senger ([@yarasenger](https://twitter.com/yarasenger), [@vsenger](https://twitter.com/vsenger)) for their great [Raspi Hands-On-Lab](http://www.devoxx.be/dv13-geert-bevin.html?presId=3747) at Devoxx 13.
 
