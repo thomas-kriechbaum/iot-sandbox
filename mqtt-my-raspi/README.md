@@ -11,13 +11,13 @@ MQTT-MY-RASPI consists of the following Camel routes:
 
 Furthermore, a Things-Command can be directly published to the MQTT topic using any other MQTT client as well.
 
-
-
 The following picture shows my test-setup (Nexus 7, Raspi, Arduino Leonardo) ![foto](test-setup.jpg).
 
 For any questions or feedback contact me on Twitter via [@tomkriech](https://twitter.com/tomkriech).
 
 Thanks to Yara and Vinicius Senger ([@yarasenger](https://twitter.com/yarasenger), [@vsenger](https://twitter.com/vsenger)) for their great [Raspi Hands-On-Lab](http://www.devoxx.be/dv13-geert-bevin.html?presId=3747) at Devoxx 13.
+
+My presentation is now accessible at [Parleys](http://bit.ly/1r1rxBa) for free.
 
 **Note:**
 The combination of CDI and Camel as used within this example might be a little bit "over-engineered". But it demonstrates, that even hardware-related APIs as the Things-API can be reused in a (micro) ESB/Java EE environment very easily. 
